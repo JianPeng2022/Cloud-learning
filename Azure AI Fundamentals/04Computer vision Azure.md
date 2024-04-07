@@ -5,7 +5,6 @@ The array of pixel values for this image is two-dimensional (representing rows a
 
 Using filters to process images
 | -1 | -1 | -1 |
-|----|----|----|
 | -1 |  8 | -1 |
 | -1 | -1 | -1 |
 
