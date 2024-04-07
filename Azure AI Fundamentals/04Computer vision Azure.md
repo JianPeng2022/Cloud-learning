@@ -4,6 +4,8 @@ To a computer, an image is an **array of numeric pixel** values. An array consis
 The array of pixel values for this image is two-dimensional (representing rows and columns, or x and y coordinates) and defines a single rectangle of pixel values. A single layer of pixel values like this represents a grayscale image. In reality, most digital images are multidimensional and consist of three layers (known as channels) that represent red, green, and blue (**RGB**) color hues.
 
 Using filters to process images
--1 -1 -1
--1  8 -1
--1 -1 -1
+| -1 | -1 | -1 |
+|----|----|----|
+| -1 |  8 | -1 |
+| -1 | -1 | -1 |
+
