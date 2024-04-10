@@ -50,6 +50,14 @@ Azure AI Vision supports multiple image analysis capabilities, including:
 
 Training custom models: If the built-in models provided by Azure AI Vision don't meet your needs, you can use the service to train a custom model for image classification or object detection. Azure AI Vision builds custom models on the pre-trained foundation model, meaning that you can train sophisticated models by using relatively few training images.
 
+###  Fundamentals of Facial Recognition
+**Face detection** involves identifying regions of an image that contain a human face, typically by returning bounding box coordinates that form a rectangle around the face. 
 
+With **Face analysis**, facial features can be used to train machine learning models to return other information, such as facial features such as nose, eyes, eyebrows, lips, and others.
 
+A further application of facial analysis is to train a machine learning model to identify known individuals from their facial features. This is known as facial recognition, and uses multiple images of an individual to train the model. This trains the model so that it can detect those individuals in new images on which it wasn't trained. When used responsibly, facial recognition is an important and useful technology that can improve efficiency, security, and customer experiences. 
 
+Microsoft Azure provides multiple Azure AI services that you can use to detect and analyze faces, including:
+- Azure AI Vision, which offers face detection and some basic face analysis, such as returning the bounding box coordinates around an image.
+- Azure AI Video Indexer, which you can use to detect and identify faces in a video.
+- Azure AI Face, which offers pre-built algorithms that can detect, recognize, and analyze faces.
