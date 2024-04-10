@@ -36,5 +36,20 @@ Transformers work by processing huge volumes of data, and encoding language toke
 Multi-modal models, in which the model is trained using a large volume of captioned images, with no fixed labels. An image encoder extracts features from images based on pixel values and combines them with text embeddings created by a language encoder. The overall model encapsulates relationships between natural language token embeddings and image features
 
 ### Azure AI Vision
+Microsoft's Azure AI Vision service provides prebuilt and customizable computer vision models that are based on the Florence foundation model and provide various powerful capabilities. With Azure AI Vision, you can create sophisticated computer vision solutions quickly and easily; taking advantage of "off-the-shelf" functionality for many common computer vision scenarios, while retaining the ability to create custom models using your own images.
+
+Azure resources for Azure AI Vision service
+- Azure AI Vision: A specific resource for the Azure AI Vision service. Use this resource type if you don't intend to use any other Azure AI services, or if you want to track utilization and costs for your Azure AI Vision resource separately.
+- Azure AI services: A general resource that includes Azure AI Vision along with many other Azure AI services; such as Azure AI Language, Azure AI Custom Vision, Azure AI Translator, and others. Use this resource type if you plan to use multiple AI services and want to simplify administration and development.
+
+Azure AI Vision supports multiple image analysis capabilities, including:
+- Optical character recognition (OCR) - extracting text from images.
+- Generating captions and descriptions of images.
+- Detection of thousands of common objects in images.
+- Tagging visual features in images: Azure AI Vision can suggest tags for an image based on its contents. These tags can be associated with the image as metadata that summarizes attributes of the image and can be useful if you want to index an image along with a set of key terms that might be used to search for images with specific attributes or contents.
+
+Training custom models: If the built-in models provided by Azure AI Vision don't meet your needs, you can use the service to train a custom model for image classification or object detection. Azure AI Vision builds custom models on the pre-trained foundation model, meaning that you can train sophisticated models by using relatively few training images.
+
+
 
 
