@@ -74,7 +74,7 @@ Microsoft Azure offers both speech recognition and speech synthesis capabilities
 - The Speech to text API
 - The Text to speech API
 
-### Document intelligence
+## Document intelligence
 Document intelligence describes AI capabilities that support processing text and making sense of information in text. As an extension of optical character recognition (OCR), document intelligence takes the next step a person might after reading a form or document. It automates the process of extracting, understanding, and saving the data in text.
 
 Azure AI Document Intelligence consists of features grouped by model type:
@@ -82,4 +82,15 @@ Azure AI Document Intelligence consists of features grouped by model type:
 - Custom models - can be trained to identify specific fields that are not included in the existing pretrained models.
 - Document analysis - general document analysis that returns structured data representations, including regions of interest and their inter-relationships.
 
+### Fundamentals of Knowledge Mining and Azure AI Search 
+Azure AI Search provides the infrastructure and tools to create search solutions that extract data from various structured, semi-structured, and non-structured documents.
 
+Azure AI Search comes with the following features:
+- Data from any source: accepts data from any source provided in JSON format, with auto crawling support for selected data sources in Azure.
+- Full text search and analysis: offers full text search capabilities supporting both simple query and full Lucene query syntax.
+AI powered search: has Azure AI capabilities built in for image and text analysis from raw content.
+- Multi-lingual offers linguistic analysis for 56 languages to intelligently handle phonetic matching or language-specific linguistics. Natural language processors available in Azure AI Search are also used by Bing and Office.
+- Geo-enabled: supports geo-search filtering based on proximity to a physical location.
+- Configurable user experience: has several features to improve the user experience including autocomplete, autosuggest, pagination, and hit highlighting.
+
+Use a skillset to define an enrichment pipeline
