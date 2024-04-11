@@ -13,4 +13,21 @@ Tokenization:  "we choose to go to the moon". The phrase can be broken down into
 - 4 go
 - 5 the
 - 6 moon
+
 Notice that "to" (token number 3) is used twice in the corpus. The phrase "we choose to go to the moon" can be represented by the tokens [1,2,3,4,3,5,6].
+
+Text normalization, Stop word removal, n-grams, Stemming
+
+As the state of the art for NLP has advanced, the ability to train models that encapsulate the semantic relationship between tokens has led to the emergence of powerful language models. At the heart of these models is the encoding of language tokens as vectors (multi-valued arrays of numbers) known as **embeddings**.
+
+### Azure AI Language
+Azure AI Language is a part of the Azure AI services offerings that can perform advanced natural language processing over unstructured text. Azure AI Language's text analysis features include:
+- Named entity recognition identifies people, places, events, and more. This feature can also be customized to extract custom categories.
+- Entity linking identifies known entities together with a link to Wikipedia.
+- Personal identifying information (PII) detection identifies personally sensitive information, including personal health information (PHI).
+- Language detection identifies the language of the text and returns a language code such as "en" for English.
+- Sentiment analysis and opinion mining identifies whether text is positive or negative.
+- Summarization summarizes text by identifying the most important information.
+- Key phrase extraction lists the main concepts from unstructured text.
+
+
