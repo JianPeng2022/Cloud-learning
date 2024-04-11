@@ -30,4 +30,14 @@ Azure AI Language is a part of the Azure AI services offerings that can perform 
 - Summarization summarizes text by identifying the most important information.
 - Key phrase extraction lists the main concepts from unstructured text.
 
+**Conversational AI** describes solutions that enable a dialog between an AI agent and a human. Generically, conversational AI agents are known as bots. People can engage with bots through channels such as web chat interfaces, email, social media platforms, and more.
+
+You can easily create a user support bot solution on Microsoft Azure using a combination of two core services:
+- Azure AI Language: includes a custom question-answering feature that enables you to create a knowledge base of question and answer pairs that can be queried using natural language input.
+- Azure AI Bot Service: provides a framework for developing, publishing, and managing bots on Azure.
+
+When your bot is ready to be delivered to users, you can connect it to multiple channels; making it possible for users to interact with it through web chat, email, Microsoft Teams, and other common communication media.
+
+
+
 
