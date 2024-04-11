@@ -93,4 +93,10 @@ AI powered search: has Azure AI capabilities built in for image and text analysi
 - Geo-enabled: supports geo-search filtering based on proximity to a physical location.
 - Configurable user experience: has several features to improve the user experience including autocomplete, autosuggest, pagination, and hit highlighting.
 
-Use a skillset to define an enrichment pipeline
+#### Use a skillset to define an enrichment pipeline
+**Built-in skills** are based on pretrained models from Microsoft, which means you can't train the model using your own training data. Skills that call the Azure AI services APIs have a dependency on those services and are billed at the Azure AI services pay-as-you-go price when you attach a resource. Other skills are metered by Azure AI Search, or are utility skills that are available at no charge.
+
+Built-in skills fall into these categories:
+- Natural language processing skills: with these skills, unstructured text is mapped as searchable and filterable fields in an index.
+- Image processing skills: creates text representations of image content, making it searchable using the query capabilities of Azure AI Search.
+
