@@ -61,3 +61,40 @@ Microsoft Azure provides multiple Azure AI services that you can use to detect a
 - Azure AI Vision, which offers face detection and some basic face analysis, such as returning the bounding box coordinates around an image.
 - Azure AI Video Indexer, which you can use to detect and identify faces in a video.
 - Azure AI Face, which offers pre-built algorithms that can detect, recognize, and analyze faces.
+
+The Azure Face service can return the rectangle coordinates for any human faces that are found in an image, as well as a series of attributes related to those faces such as:
+- Accessories: indicates whether the given face has accessories. This attribute returns possible accessories, including headwear, glasses, and masks, with a confidence score between zero and one for each accessory.
+- Blur: how blurred the face is, which can be an indication of how likely the face is to be the main focus of the image.
+- Exposure: such as whether the image is underexposed or over exposed. This applies to the face in the image and not the overall image exposure.
+- Glasses: whether or not the person is wearing glasses.
+- Head pose: the face's orientation in a 3D space.
+- Mask: indicates whether the face is wearing a mask.
+- Noise: refers to visual noise in the image. If you have taken a photo with a high ISO setting for darker settings, you would notice this noise in the image. The image looks grainy or full of tiny dots that make the image less clear.
+- Occlusion: determines if there might be objects blocking the face in the image.
+
+To use the Face service, you must create one of the following types of resource in your Azure subscription:
+- Face: Use this specific resource type if you don't intend to use any other Azure AI services, or if you want to track utilization and costs for Face separately.
+- Azure AI services: A general resource that includes Azure AI Face along with many other Azure AI services such as Azure AI Content Safety, Azure AI Language, and others. Use this resource type if you plan to use multiple Azure AI services and want to simplify administration and development.
+
+There are some considerations that can help improve the accuracy of the detection in the images:
+- Image format - supported images are JPEG, PNG, GIF, and BMP.
+- File size - 6 MB or smaller.
+- Face size range - from 36 x 36 pixels up to 4096 x 4096 pixels. Smaller or larger faces will not be detected.
+- Other issues - face detection can be impaired by extreme face angles, extreme lighting, and occlusion (objects blocking the face such as a hand).
+
+### Fundamentals of optical character recognition 
+Automating text processing can improve the speed and efficiency of work by removing the need for manual data entry. The ability to recognize printed and handwritten text in images is beneficial in scenarios such as note taking, digitizing medical records or historical documents, scanning checks for bank deposits, and more.
+
+The ability for computer systems to process written and printed text is an area of AI where computer vision intersects with natural language processing. Vision capabilities are needed to "read" the text, and then natural language processing capabilities make sense of it.
+
+Azure AI Vision service has the ability to extract machine-readable text from images. Azure AI Vision's Read API is the OCR engine that powers text extraction from images, PDFs, and TIFF files. OCR for images is optimized for general, non-document images that makes it easier to embed OCR in your user experience scenarios.
+
+The Read API, otherwise known as Read OCR engine, uses the latest recognition models and is optimized for images that have a significant amount of text or have considerable visual noise. It can automatically determine the proper recognition model to use taking into consideration the number of lines of text, images that include text, and handwriting.
+
+Calling the Read API returns results arranged into the following hierarchy:
+- Pages - One for each page of text, including information about the page size and orientation.
+- Lines - The lines of text on a page.
+- Words - The words in a line of text, including the bounding box coordinates and text itself.
+
+
+
