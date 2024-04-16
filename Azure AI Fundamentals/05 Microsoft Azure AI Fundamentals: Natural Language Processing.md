@@ -100,3 +100,13 @@ Built-in skills fall into these categories:
 - Natural language processing skills: with these skills, unstructured text is mapped as searchable and filterable fields in an index.
 - Image processing skills: creates text representations of image content, making it searchable using the query capabilities of Azure AI Search.
 
+#### Understand indexes 没明白
+An Azure AI Search index can be thought of as a container of searchable documents. Conceptually you can think of an index as a table and each row in the table represents a document. Tables have columns, and the columns can be thought of as equivalent to the fields in a document. Columns have data types, just as the fields do on the documents.
+
+Use an indexer to build an index: In order to index the documents in Azure Storage, they need to be exported from their original file type to JSON. In order to export data in any format to JSON, and load it into an index, we use an indexer.
+
+Azure AI Search lets you create and load JSON documents into an index with two approaches:
+- **Push method**: JSON data is pushed into a search index via either the REST API or the .NET SDK. Pushing data has the most flexibility as it has no restrictions on the data source type, location, or frequency of execution.
+- **Pull method**: Search service indexers can pull data from popular Azure data sources, and if necessary, export that data into JSON if it isn't already in that format.
+
+
