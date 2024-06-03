@@ -35,3 +35,10 @@ multiclass classification
 **regression**
 _Regression is a machine learning scenario that is used to predict numeric values. In this example, regression will be able to predict future energy consumption based on analyzing historical time-series energy data based on factors, such as seasonal weather and holiday periods. Multiclass classification is used to predict categories of data. Clustering analyzes unlabeled data to find similarities present in the data. Classification is used to predict categories of data._
 
+You plan to use machine learning to predict the probability of humans developing diabetes based on their age and body fat percentage.
+What should the model include?
+three features
+three labels
+**two features and one label**
+two labels and one feature
+_The scenario represents a model that is meant to establish a relationship between two features (age and body fat percentage) and one label (the likelihood of developing diabetes). The features are descriptive attributes (serving as the input), while the label is the characteristic you are trying to predict (serving as the output)._
