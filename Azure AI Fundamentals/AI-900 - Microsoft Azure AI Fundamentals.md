@@ -1,4 +1,5 @@
-Which natural language processing (NLP) workload is used to generate closed caption text for live presentations?
+Which natural language processing (NLP) workload is used to generate closed caption text for live presentations?  
+
 **Azure AI Speech**
 conversational language understanding (CLU)
 question answering models
