@@ -157,3 +157,124 @@ optical character recognition (OCR)
 tagging
 _Detecting objects identifies common objects and, for each, returns bounding box coordinates. Image categorization assigns a category to an image, but it does not return bounding box coordinates. Tagging involves associating an image with metadata that summarizes the attributes of the image, but it does not return bounding box coordinates. OCR detects printed and handwritten text in images, but it does not return bounding box coordinates._
 
+Which two specialized domain models are supported by using the Azure AI Vision service? Each correct answer presents a complete solution.
+animals
+cars
+**celebrities
+landmarks**
+plants
+_The Azure AI Vision service supports the celebrities and landmarks specialized domain models. It does not support specialized domain models for animals, cars, or plants._
+
+Which additional piece of information is included with each phrase returned by an image description task of the Azure AI Vision?
+bounding box coordinates
+**confidence score**
+endpoint
+key
+_Each phrase returned by an image description task of the Azure AI Vision includes the confidence score. An endpoint and a key must be provided to access the Azure AI Vision service. Bounding box coordinates are returned by services such as object detection, but not image description._
+
+Which two prebuilt models allow you to use the Azure AI Document Intelligence service to scan information from international passports and sales accounts? Each correct answer presents part of the solution.
+business card model
+**ID document model
+invoice model**
+language model
+receipt model
+_The invoice model extracts key information from sales invoices and is suitable for extracting information from sales account documents. The ID document model is optimized to analyze and extract key information from US driver’s licenses and international passport biographical pages. The business card model, receipt model, and language model are not suitable to extract information from passports or sales account documents._
+
+Which three sources can be used to generate questions and answers for a knowledge base? Each correct answer presents a complete solution.
+**a webpage**
+an audio file
+**an existing FAQ document**
+an image file
+**manually entered data
+**
+_A webpage or an existing document, such as a text file containing question and answer pairs, can be used to generate a knowledge base. You can also manually enter the knowledge base question-and-answer pairs. You cannot directly use an image or an audio file to import a knowledge base._
+
+[Answer choice] use plugins to provide end users with the ability to get help with common tasks from a generative AI model.
+**Copilots**
+Language Understanding solutions
+Question answering models
+RESTful API services
+_Copilots are often integrated into applications to provide a way for users to get help with common tasks from a generative AI model. Copilots are based on a common architecture, so developers can build custom copilots for various business-specific applications and services._
+
+At which layer can you apply content filters to suppress prompts and responses for a responsible generative AI solution?
+metaprompt and grounding
+model
+**safety system**
+user experience
+_The safety system layer includes platform-level configurations and capabilities that help mitigate harm. For example, the Azure OpenAI service includes support for content filters that apply criteria to suppress prompts and responses based on the classification of content into four severity levels (safe, low, medium, and high) for four categories of potential harm (hate, sexual, violence, and self-harm)._
+
+xxx can return responses, such as natural language, images, or code, based on natural language input.
+Computer vision
+Deep learning
+**Generative AI**
+Machine learning
+Reinforcement learning
+_Generative AI models offer the capability of generating images based on a prompt by using DALL-E models, such as generating images from natural language. The other AI capabilities are used in different contexts to achieve other goals._
+
+xxx can used to identify constraints and styles for the responses of a generative AI model.
+Data grounding
+Embeddings
+**System messages**
+Tokenization
+_System messages should be used to set the context for the model by describing expectations. Based on system messages, the model knows how to respond to prompts. The other techniques are also used in generative AI models, but for other use cases._
+
+Which two capabilities are examples of a GPT model? Each correct answer presents a complete solution.
+**Create natural language.**
+Detect specific dialects of a language.
+Generate closed captions in real-time from a video.
+Synthesize speech.
+**Understand natural language.**
+_Azure OpenAI natural language models can take in natural language and generate responses. GPT models are excellent at both understanding and creating natural language._
+
+You plan to develop an image processing solution that will use DALL-E as a generative AI model.
+Which capability is NOT supported by the DALL-E model?
+**image description**
+image editing
+image generation
+image variations
+_Image description is not a capability included in the DALL-E model, therefore, it is not a use case that can be implemented by using DALL-E, while the other three capabilities are offered by DALL-E in Azure OpenAI._
+
+Which generative AI model is used to generate images based on natural language prompts?
+**DALL-E**
+Embeddings
+GPT-3.5
+GPT-4
+Whisper
+_DALL-E is a model that can generate images from natural language. GPT-4 and GPT-3.5 can understand and generate natural language and code but not images. Embeddings can convert text into numerical vector form to facilitate text similarity. Whisper can transcribe and translate speech to text._
+
+xxx can search, classify, and compare sources of text for similarity.
+Data grounding
+**Embeddings**
+Machine learning
+System messages
+_Embeddings is an Azure OpenAI model that converts text into numerical vectors for analysis. Embeddings can be used to search, classify, and compare sources of text for similarity._
+
+What is the first step in the statistical analysis of terms in a text in the context of natural language processing (NLP)?
+creating a vectorized model
+counting the occurrences of each word
+encoding words as numeric features
+**removing stop words**
+_Removing stop words is the first step in the statistical analysis of terms used in a text in the context of NLP. Counting the occurrences of each word takes place after stop words are removed. Creating a vectorized model is not part of statistical analysis. It is used to capture the sematic relationship between words. Encoding words as numeric features is not part of statistical analysis. It is frequently used in sentiment analysis._
+
+What is the confidence score returned by the Azure AI Language detection service of natural language processing (NLP) for an unknown language name?
+
+Select only one answer.
+1
+-1
+**NaN**
+Unknown
+_NaN, or not a number, designates an unknown confidence score. Unknown is a value with which the NaN confidence score is associated. The score values range between 0 and 1, with 0 designating the lowest confidence score and 1 designating the highest confidence score._
+
+Which part of speech synthesis in natural language processing (NLP) involves breaking text into individual words such that each word can be assigned phonetic sounds?
+lemmatization
+key phrase extraction
+**tokenization**
+transcribing
+_Tokenization is part of speech synthesis that involves breaking text into individual words such that each word can be assigned phonetic sounds. Transcribing is part of speech recognition, which involves converting speech into a text representation. Key phrase extraction is part of language processing, not speech synthesis. Lemmatization, also known as stemming, is part of language processing, not speech synthesis._
+
+Which two Azure AI Services features can be used to enable both text-to-text and speech-to-text between multiple languages? Each correct answer presents part of the solution.
+Conversational Language Understanding
+key phrase extraction
+language detection
+the Speech service
+the Translator service
