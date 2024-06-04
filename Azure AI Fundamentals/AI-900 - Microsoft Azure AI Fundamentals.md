@@ -276,5 +276,121 @@ Which two Azure AI Services features can be used to enable both text-to-text and
 Conversational Language Understanding
 key phrase extraction
 language detection
-the Speech service
-the Translator service
+**the Speech service**
+**the Translator service**
+_The Azure AI Speech service can be used to generate spoken audio from a text source for text-to-speech translation. The Azure AI Translator service directly supports text-to-text translation in more than 60 languages. Key phrase extraction, Conversational Language Understanding, and language detection are not used for language translation for text-to-text and speech-to-text translation._
+
+Which two features of Azure AI Services allow you to identify issues from support question data, as well as identify any people and products that are mentioned? Each correct answer presents part of the solution.
+
+Azure AI Bot Service
+Conversational Language Understanding
+**key phrase extraction**
+**named entity recognition**
+Azure AI Speech service
+_Key phrase extraction is used to extract key phrases to identify the main concepts in a text. It enables a company to identify the main talking points from the support question data and allows them to identify common issues. Named entity recognition can identify and categorize entities in unstructured text, such as people, places, organizations, and quantities. The Azure AI Speech service, Conversational Language Understanding, and Azure AI Bot Service are not designed for identifying key phrases or entities._
+
+Which feature of the Azure AI Language service includes functionality that returns links to external websites to disambiguate terms identified in a text?
+**entity recognition**
+key phrase extraction
+language detection
+sentiment analysis
+_Entity recognition includes the entity linking functionality that returns links to external websites to disambiguate terms (entities) identified in a text. Key phrase extraction evaluates the text of a document and identifies its main talking points. Azure AI Language detection identifies the language in which text is written. Sentiment analysis evaluates text and returns sentiment scores and labels for each sentence._
+
+For which two scenarios is the Universal Language Model used by the speech-to-text API optimized? Each correct answer presents a complete solution.
+acoustic
+**conversational**
+**dictation**
+language
+pronunciation
+_The Universal Language Model used by the speech-to-text API is optimized for conversational and dictation scenarios. The acoustic, language, and pronunciation scenarios require developing your own model._
+
+Which type of translation does the Azure AI Translator service support?
+speech-to-speech
+speech-to-text
+text-to-speech
+**text-to-text**
+_The Azure AI Translator service supports text-to-text translation, but it does not support speech-to-text, text-to-speech, or speech-to-speech translation._
+
+Which three features are elements of the Azure AI Language Service? Each correct answer presents a complete solution.
+Azure AI Vision
+Azure AI Content Moderator
+**Entity Linking**
+**Personally Identifiable Information (PII) detection**
+**Sentiment analysis**
+_Entity Linking, PII detection, and sentiment analysis are all elements of the Azure AI Service for Azure AI Language. Azure AI Vision deals with image processing. Azure AI Content Moderator is an Azure AI Services service that is used to check text, image, and video content for material that is potentially offensive._
+
+Which type of artificial intelligence (AI) workload provides the ability to generate bounding boxes that identify the locations of different types of vehicles in an image?
+image analysis
+image classification
+optical character recognition (OCR)
+**object detection**
+_Object detection provides the ability to generate bounding boxes identifying the locations of different types of vehicles in an image. The other answer choices also process images, but their outcomes are different._
+
+Which type of artificial intelligence (AI) workload provides the ability to classify individual pixels in an image depending on the object that they represent?
+image analysis
+image classification
+object detection
+**semantic segmentation**
+_Semantic segmentation provides the ability to classify individual pixels in an image depending on the object that they represent. The other answer choices also process images, but their outcomes are different._
+
+Which type of service provides a platform for conversational artificial intelligence (AI)?
+**Azure AI Bot Service**
+Azure AI Document Intelligence
+Azure AI Vision
+Azure AI Translator
+_Azure AI Bot Service provide a platform for conversational artificial intelligence (AI), which designates the ability of software agents to participate in a conversation. Azure AI Translator is part of Natural language processing (NLP), but it does not serve as a platform for conversational AI. Azure AI Vision deals with image processing. Azure AI Document Intelligence extracts information from scanned forms and invoices._
+
+Which type of artificial intelligence (AI) workload has the primary purpose of making large amounts of data searchable?
+image analysis
+**knowledge mining**
+object detection
+semantic segmentation
+_Knowledge mining is an artificial intelligence (AI) workload that has the purpose of making large amounts of data searchable. While other workloads leverage indexing for faster access to large amounts of data, this is not their primary purpose._
+
+Which artificial intelligence (AI) workload scenario is an example of natural language processing (NLP)?
+**extracting key phrases from a business insights report**
+identifying objects in landscape images
+monitoring for sudden increases in quantity of failed sign-in attempts
+predicting whether customers are likely to buy a product based on previous purchases
+_Extracting key phrases from text to identify the main terms is an NLP workload. Predicting whether customers are likely to buy a product based on previous purchases requires the development of a machine learning model. Monitoring for sudden increases in quantity of failed sign-in attempts is a different workload. Identifying objects in landscape images is a computer vision workload._
+
+Which two artificial intelligence (AI) workload scenarios are examples of natural language processing (NLP)? Each correct answer presents a complete solution.
+extracting handwritten text from online images
+generating tags and descriptions for images
+monitoring network traffic for sudden spikes
+**performing sentiment analysis on social media data**
+**translating text between different languages from product reviews**
+_Translating text between different languages from product reviews is an NLP workload that uses the Azure AI Translator service and is part of Azure AI Services. It can provide text translation of supported languages in real time. Performing sentiment analysis on social media data is an NLP that uses the sentiment analysis feature of the Azure AI Service for Language. It can provide sentiment labels, such as negative, neutral, and positive for text-based sentences and documents._
+
+Which two artificial intelligence (AI) workload features are part of the Azure AI Vision service? Each correct answer presents a complete solution.
+
+entity recognition
+key phrase extraction
+**optical character recognition (OCR)**
+sentiment analysis
+**spatial analysis**
+_OCR and Spatial Analysis are part of the Azure AI Vision service. Sentiment analysis, entity recognition, and key phrase extraction are not part of the computer vision service._
+
+Which principle of responsible artificial intelligence (AI) has the objective of ensuring that AI solutions benefit all parts of society regardless of gender or ethnicity?
+
+accountability
+**inclusiveness**
+privacy and security
+reliability and safety
+_The inclusiveness principle is meant to ensure that AI solutions empower and engage everyone, regardless of criteria such as physical ability, gender, sexual orientation, or ethnicity. Privacy and security, reliability and safety, and accountability do not discriminate based on these criteria, but also do not emphasize the significance of bringing benefits to all parts of the society._
+
+Which principle of responsible artificial intelligence (AI) is applied in the design of an AI system to ensure that users understand constraints and limitations of AI?
+fairness
+inclusiveness
+privacy and security
+**transparency**
+_The transparency principle states that AI systems must be designed in such a way that users are made fully aware of the purpose of the systems, how they work, and which limitations can be expected during use. The inclusiveness principle states that AI systems must empower people in a positive and engaging way. Fairness is applied to AI systems to ensure that users of the systems are treated fairly. The privacy and security principle are applied to the design of AI systems to ensure that the systems are secure and to respect user privacy._
+
+Which two principles of responsible artificial intelligence (AI) are most important when designing an AI system to manage healthcare data? Each correct answer presents part of the solution.
+**accountability**
+fairness
+inclusiveness
+**privacy and security**
+
+_The accountability principle states that AI systems are designed to meet any ethical and legal standards that are applicable. The system must be designed to ensure that privacy of the healthcare data is of the highest importance, including anonymizing data where applicable. The fairness principle is applied to AI systems to ensure that users of the systems are treated fairly. The inclusiveness principle states that AI systems must empower people in a positive and engaging way._
+
